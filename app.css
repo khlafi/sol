@@ -1,0 +1,86 @@
+body {
+  padding: 30px;
+  direction: rtl;
+  text-align: right;
+  background: #fff;
+
+  /*background: #fff;*/
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+.sh-box-head {
+  padding: 20px;
+
+  /*border-bottom: 2px dotted #ededed;*/
+}
+.sh-avatar {
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #dedede;
+  border-radius: 50%;
+}
+.sh-name {
+  margin-top: 15px;
+
+  text-align: center;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 4.5em;
+  /*color: #fff;*/
+
+}
+.sh-content {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.sh-desc {
+    font-size: 1.9em;
+    font-family: 'Aref Ruqaa', serif;
+    /*color: #fff;*/
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.social-media {
+    border-top: 1px dotted rgba(1, 1, 1, 0.05);
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+.fa {
+  text-decoration: none!important;
+  color: #333;
+}
+.fa:hover {
+  color: #333;
+}
+
+.sh-standout {
+  margin-top: 0;
+  padding-top: 40px;
+  border-top: 2px dotted #ededed;
+}
+.sh-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sh-info ul {
+  padding-left: 0;
+  list-style: square;
+}
+
+.sh-bio {
+    font-size: 1.6em;
+    font-family: 'Lateef', cursive;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .list-inline>li {
+        display: block!important;
+        margin-bottom: 15px;
+    }
+}
